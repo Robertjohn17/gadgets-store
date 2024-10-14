@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  margin: 15px 0px;
+  height: 350px;
+  width: 600px;
+  border: 2px solid rgb(209, 202, 202);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.h2 {
+  text-align: center;
+  margin: 20px 0 20px 0;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.form {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+.label {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.textarea {
+  width: 250px;
+}
+.btn {
+  margin: 0px 100px;
+  height: 40px;
+  border: none;
+  background-color: rgb(25, 24, 24);
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  &:hover {
+    background-color: black;
+  }
+}
+.input {
+  padding-left: 15px;
+}
+.textarea {
+  padding-left: 10px;
+}

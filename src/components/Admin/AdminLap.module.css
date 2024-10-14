@@ -1,0 +1,140 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(226, 223, 220);
+}
+.main {
+  overflow: hidden;
+  margin: 10px;
+  width: 40%;
+  display: flex;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease-in-out;
+  background-color: white;
+}
+.imag {
+  margin: 10px;
+  width: 30%;
+  object-fit: contain;
+}
+.product_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 10px;
+  margin: 5px;
+}
+.company {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+.name {
+  margin: 8px 0px;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.price {
+  margin: 8px 0px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #393d42;
+}
+.specification {
+  font-size: 1em;
+}
+.btn {
+  width: 100px;
+  height: 35px;
+  font-size: 0.8rem;
+  font-weight: 550;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(192, 187, 187);
+  &:hover {
+    background-color: rgb(123, 119, 119);
+  }
+}
+.whishlist {
+  float: right;
+  margin-right: 5px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.gotocart {
+  text-decoration: none;
+  color: black;
+}
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addProduct {
+  margin: 10px 0px;
+  background-color: rgb(226, 223, 220);
+  height: 385px;
+  width: 450px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.addProduct p {
+  margin: 10px 0px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.inputContainer {
+  margin: 15px 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.input {
+  margin-top: 10px;
+  height: 40px;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  padding-left: 15px;
+}
+.inputimage {
+  margin-top: 15px;
+  height: 40px;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  padding-left: 15px;
+}
+.addbtn {
+  margin: 15px 75px 0 75px;
+  height: 40px;
+  border: none;
+  background-color: rgb(28, 26, 26);
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 4px;
+  &:hover {
+    background-color: black;
+  }
+}
+.addproducth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(25, 24, 24, 0.715);
+  height: 30px;
+  &:hover {
+    background-color: black;
+  }
+}
+.addproducth a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
