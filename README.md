@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# E-Commerce Application (Frontend Only)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An e-commerce application built with React, featuring separate user and admin modules. Users can explore products, manage their cart and wishlist, and proceed through a simulated checkout. Admins have control over product and user management, with options to ban users and prevent them from logging in.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### User Module
+- **Product Browsing**: View products by categories.
+- **Cart and Wishlist Management**: Add items to the cart or wishlist, view cart items, and proceed to checkout.
+- **Profile Management**: Update personal information and view order history.
 
-### `npm test`
+### Admin Module
+- **CRUD Operations**: Create, read, update, and delete products (using local state or demo data).
+- **User Management**: View and ban users.
+- **User Ban**: Banned users cannot log in or access the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Include some sample screenshots of the application:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ![Home page demo](./public/demoImage/mobilePage.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run this project locally, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Node.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Clone the Repository
 
-## Learn More
+Clone the project repository and navigate to the project directory:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/your-username/ecommerce-frontend.git
+cd ecommerce-frontend
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Install Dependencies and Run the application
 
-### Code Splitting
+ ```bash
+ npm install
+ npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- The frontend will run on http://localhost:3000.
 
-### Analyzing the Bundle Size
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Sign Up or Login: Register as a new user or log in.
+2. Browse Products: User can View products by category.
+3. Manage Cart and Wishlist: Add items to your cart or wishlist and proceed to checkout.
+4. Admin Access: Access the admin panel to manage products, users.
 
-### Making a Progressive Web App
+### Admin Credentials (for demo purposes)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Username: admin@example.com
+- Password: password (You can hardcode or mock these for demo purposes in your React app)
 
-### Advanced Configuration
+### Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Frontend: React, Redux, Bootstrap, react-router
+- Styling: CSS, Bootstrap
